@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astroflow — Ежедневный цифровой ритуал для души</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Stars Background -->
+<div class="stars-container">
+<div class="stars"></div>
+<div class="stars2"></div>
+<div class="stars3"></div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar">
+<div class="container nav-container">
+<div class="logo">
+<img src="logo.png" alt="Astroflow" class="logo-image">
+<span class="logo-text">Astroflow</span>
+</div>
+<div class="nav-links">
+<a href="#features">Возможности</a>
+<a href="#tarot">Таро</a>
+<a href="#moon">Луна</a>
+<a href="#safety">Безопасность</a>
+<a href="#install">Установка</a>
+<a href="#pricing">Подписка</a>
+</div>
+<a href="https://astroflow-gamma.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary nav-cta">Начать</a>
+<button class="mobile-menu-btn">☰</button>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+<div class="container hero-container">
+<div class="hero-content fade-in">
+<div class="hero-badge">
+<span class="badge-icon">🌙</span>
+<span>Ежедневный цифровой ритуал · от автора канала @dinnkana</span>
+</div>
+<h1 class="hero-title">
+Познай себя через <span class="gradient-text">древние символы</span>
+</h1>
+<p class="hero-subtitle">
+Таро, лунный календарь и нумерология в твоём кармане. 2 минуты в день, чтобы снизить тревожность, заземлиться и принять решение без давления.
+</p>
+<div class="hero-buttons">
+<a href="https://astroflow-gamma.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary btn-large">
+<span>Открыть приложение</span>
+<span class="btn-arrow">→</span>
+</a>
+<button class="btn btn-secondary btn-large" onclick="scrollToFeatures()">Узнать больше</button>
+</div>
+<div class="hero-stats">
+<div class="stat">
+<div class="stat-number">78</div>
+<div class="stat-label">Карт Таро</div>
+</div>
+<div class="stat-divider"></div>
+<div class="stat">
+<div class="stat-number">24/7</div>
+<div class="stat-label">Доступ offline</div>
+</div>
+<div class="stat-divider"></div>
+<div class="stat">
+<div class="stat-number">1K+</div>
+<div class="stat-label">Пользователей</div>
+</div>
+</div>
+</div>
+<div class="hero-visual fade-in delay-200">
+<div class="app-mockup">
+<img src="aipp.png" alt="Astroflow приложение" class="app-image">
+<div class="app-glow"></div>
+</div>
+</div>
+</div>
+<div class="hero-gradient"></div>
+</section>
+
+<!-- Channel Section -->
+<section id="channel" class="channel-section">
+<div class="container">
+<div class="channel-container fade-in">
+<div class="channel-content">
+<div class="section-header">
+<h2 class="section-title">Продолжение практики — <span class="gradient-text">каждый день</span></h2>
+</div>
+<div class="channel-text">
+<p>На канале <a href="https://www.youtube.com/@dinnkana" target="_blank" rel="noopener" class="channel-link">@dinnkana</a> я делюсь медитациями, йогой сна и практиками самогипноза — это глубокая работа с состоянием, которая занимает 15–60 минут.</p>
+<p><strong class="text-accent">«Astroflow» — моё дополнение к тем практикам.</strong> Короткий ежедневный ритуал на 2 минуты, который помогает удерживать фокус на себе между большими сессиями. Карта дня, фаза Луны, число судьбы — простые символы, которые дают мягкую опору и снижают тревогу.</p>
+<p>Вместе они образуют экосистему заботы о ментальном состоянии: канал — для глубокой работы, приложение — для ежедневной поддержки.</p>
+</div>
+<a href="https://www.youtube.com/@dinnkana" target="_blank" rel="noopener" class="btn btn-secondary">
+<span>Перейти на канал @dinnkana</span>
+<span class="btn-arrow">→</span>
+</a>
+</div>
+<div class="channel-visual">
+<div class="channel-icon-wrap">
+<div class="channel-icon">▶</div>
+<div class="channel-glow"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="features">
+<div class="container">
+<div class="section-header fade-in">
+<h2 class="section-title">Всё для твоего <span class="gradient-text">внутреннего мира</span></h2>
+<p class="section-subtitle">Ежедневные практики, которые занимают всего 2 минуты</p>
+</div>
+<div class="features-grid">
+<div class="feature-card fade-in">
+<div class="feature-icon">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/>
+</svg>
+</div>
+<h3>Карта дня Таро</h3>
+<p>Ежедневная карта с толкованием для общей ситуации, любви, карьеры и финансов</p>
+<div class="feature-tag">Бесплатно</div>
+</div>
+<div class="feature-card fade-in delay-100">
+<div class="feature-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+<path d="M21.752 15.002A9.718 9.718 0 0118 15.75 9.75 9.75 0 018.25 6c0-1.334.271-2.6.752-3.752a9.75 9.75 0 1012.75 12.75z"/>
+</svg>
+</div>
+<h3>Лунный календарь</h3>
+<p>Фаза Луны, лунный день, знак и персональные дни силы на основе твоей даты рождения</p>
+<div class="feature-tag">Базовый · <span class="premium-tag">Премиум</span></div>
+</div>
+<div class="feature-card fade-in delay-200">
+<div class="feature-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><path d="M16 8h.01"/><path d="M8 8h.01"/><path d="M8 16h.01"/><path d="M16 16h.01"/><path d="M12 12h.01"/></svg>
+</div>
+<h3>Нумерология</h3>
+<p>Число дня, число судьбы, совместимость с партнёром и глубокий анализ личности</p>
+<div class="feature-tag premium">Премиум</div>
+</div>
+<div class="feature-card fade-in">
+<div class="feature-icon">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
+<path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+</svg>
+</div>
+<h3>Аффирмации</h3>
+<p>Утренние и вечерние ритуалы для настройки на позитивный лад</p>
+<div class="feature-tag">Утро · <span class="premium-tag">Вечер в Премиум</span></div>
+</div>
+<div class="feature-card fade-in delay-100">
+<div class="feature-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+<rect x="3" y="3" width="7" height="9" rx="1"/>
+<rect x="14" y="3" width="7" height="9" rx="1"/>
+<rect x="3" y="16" width="7" height="5" rx="1"/>
+<rect x="14" y="16" width="7" height="5" rx="1"/>
+</svg>
+</div>
+<h3>Расклады Таро</h3>
+<p>Полные расклады на 1, 3 и 4 карты + закрытые пресеты: «Мысли партнёра», «Перспектива работы»</p>
+<div class="feature-tag premium">Премиум</div>
+</div>
+<div class="feature-card fade-in delay-200">
+<div class="feature-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.114 4.462A14.5 14.5 0 0 1 12 2a10 10 0 0 1 9.313 13.643"/><path d="M15.557 15.556A14.5 14.5 0 0 1 12 22 10 10 0 0 1 4.929 4.929"/><path d="M15.892 10.234A14.5 14.5 0 0 0 12 2a10 10 0 0 0-3.643.687"/><path d="M17.656 12H22"/><path d="M19.071 19.071A10 10 0 0 1 12 22 14.5 14.5 0 0 1 8.44 8.45"/><path d="M2 12h10"/><path d="m2 2 20 20"/></svg>
+</div>
+<h3>Работает offline</h3>
+<p>Все функции доступны без интернета. Твои данные хранятся только на устройстве и в защищённом облаке</p>
+<div class="feature-tag">Всегда</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Tarot Section -->
+<section id="tarot" class="tarot-section">
+<div class="stars-parallax"></div>
+<div class="container">
+<div class="tarot-container">
+<div class="tarot-content fade-in">
+<h2 class="section-title">Древняя мудрость <span class="gradient-text">Таро</span></h2>
+<p class="tarot-description">
+78 карт, каждая со своим значением. Получай ответы на вопросы о любви, карьере, финансах и общем направлении жизни. Не предсказания — а символические подсказки, которые помогают услышать себя.
+</p>
+<ul class="tarot-features">
+<li><span class="check-icon">✓</span><span>22 старших аркана и 56 младших</span></li>
+<li><span class="check-icon">✓</span><span>Толкования для 4 сфер жизни</span></li>
+<li><span class="check-icon">✓</span><span>Расклады на 1, 3 и 4 карты</span></li>
+<li><span class="check-icon">✓</span><span>Закрытые расклады-пресеты</span></li>
+<li><span class="check-icon">✓</span><span>История всех раскладов с заметками</span></li>
+</ul>
+<a href="https://astroflow-gamma.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary">Попробовать</a>
+</div>
+<div class="tarot-visual fade-in delay-200">
+<div class="cards-showcase">
+<div class="showcase-card card-1"><img src="card01.jpg" alt="Таро карта 1"></div>
+<div class="showcase-card card-2"><img src="card02.jpg" alt="Таро карта 2"></div>
+<div class="showcase-card card-3"><img src="card03.jpg" alt="Таро карта 3"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Moon Section -->
+<section id="moon" class="moon-section">
+<div class="container">
+<div class="moon-container">
+<div class="moon-visual fade-in">
+<div class="moon-orbit">
+<div class="moon-center">
+<div class="moon-glow"></div>
+<div class="moon-icon">🌕</div>
+</div>
+<div class="orbit-particle"></div>
+</div>
+</div>
+<div class="moon-content fade-in delay-200">
+<h2 class="section-title">Синхронизируйся с <span class="gradient-text">Луной</span></h2>
+<p class="moon-description">
+Персональный лунный календарь рассчитывает дни силы и дни очищения на основе твоего числа судьбы.
+</p>
+<div class="moon-benefits">
+<div class="moon-benefit">
+<div class="benefit-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+</svg>
+</div>
+<div class="benefit-text">
+<strong>Дни силы</strong>
+<span>Периоды максимальной энергии. Делать: важные решения, старт проектов, переговоры, спорт. Не делать: пассивно ждать, откладывать.</span>
+</div>
+</div>
+<div class="moon-benefit">
+<div class="benefit-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+</svg>
+</div>
+<div class="benefit-text">
+<strong>Дни очищения</strong>
+<span>Время для избавления от лишнего. Делать: уборку, разбор вещей, отдых, медитацию. Не делать: начинать новое, брать кредиты, конфликтовать.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Numerology Section -->
+<section id="numerology" class="numerology-section">
+<div class="container">
+<div class="numerology-container">
+<div class="numerology-content fade-in">
+<h2 class="section-title">Цифры как <span class="gradient-text">зеркало</span></h2>
+<p class="numerology-description">
+Число судьбы, число дня, совместимость с партнёром. Нумерология — это не магия, а древняя система символов, которая помогает взглянуть на себя и отношения под новым углом.
+</p>
+<ul class="numerology-features">
+<li><span class="check-icon">✓</span><span>Число дня — совет на сегодня</span></li>
+<li><span class="check-icon">✓</span><span>Число судьбы — глубокий анализ личности</span></li>
+<li><span class="check-icon">✓</span><span>Совместимость с партнёром по дате рождения</span></li>
+</ul>
+<a href="https://astroflow-gamma.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary">Попробовать</a>
+</div>
+<div class="numerology-visual fade-in delay-200">
+<div class="numbers-showcase">
+<div class="number-card">1</div>
+<div class="number-card">7</div>
+<div class="number-card">22</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Safety Section -->
+<section id="safety" class="safety-section">
+<div class="container">
+<div class="section-header fade-in">
+<h2 class="section-title">Почему приложению можно <span class="gradient-text">доверять</span></h2>
+<p class="section-subtitle">Честно о том, как устроено приложение и почему установка вне магазина — это безопасно</p>
+</div>
+<div class="safety-grid">
+<div class="safety-card fade-in">
+<div class="safety-icon">🛡</div>
+<h3>PWA — официальная технология Google и Apple</h3>
+<p>Приложение построено на технологии Progressive Web App. Это не «какой-то APK из интернета», а официально поддерживаемый стандарт, который используют Twitter, Starbucks, Pinterest и тысячи других компаний. PWA устанавливается через <strong>официальный браузер</strong> (Chrome на Android, Safari на iOS).</p>
+</div>
+<div class="safety-card fade-in delay-100">
+<div class="safety-icon">🔐</div>
+<h3>Данные хранятся у тебя и в защищённом облаке Google</h3>
+<p>Локальные данные (история раскладов, настройки) остаются на твоём устройстве. Синхронизация идёт через <strong>Firebase от Google</strong>. Доступ к твоим контактам, фото, микрофону или геолокации приложение <strong>физически не имеет</strong> — технология PWA не запрашивает эти разрешения.</p>
+</div>
+<div class="safety-card fade-in delay-200">
+<div class="safety-icon">🔒</div>
+<h3>Шифрование и защита кодов</h3>
+<p>Коды активации хешируются алгоритмом <strong>SHA-256</strong> — тем же, что используется в банковской сфере. Повторное использование кода блокируется. Серверная валидация подписывается HMAC-SHA256 и защищает от подмены.</p>
+</div>
+<div class="safety-card fade-in">
+<div class="safety-icon">🌐</div>
+<h3>Открытая архитектура</h3>
+<p>Приложение работает на статическом хостинге <strong>Vercel</strong> (один из самых надёжных в мире). Серверная часть — на <strong>Cloudflare Workers</strong> (защита уровня enterprise). Весь стек — современные открытые технологии.</p>
+</div>
+<div class="safety-card fade-in delay-100">
+<div class="safety-icon">👤</div>
+<h3>Автор — живой человек</h3>
+<p>Это не анонимная корпорация. Проект ведёт один разработчик — автор YouTube-канала <strong>@dinnkana</strong>. Связь через форму обратной связи, Boosty и CloudTips. Ты всегда можешь написать и получить ответ.</p>
+</div>
+<div class="safety-card fade-in delay-200">
+<div class="safety-icon">⚠</div>
+<h3>Честный дисклеймер</h3>
+<p>Приложение носит <strong>исключительно развлекательный характер</strong>. Это не научный метод, не медицинский инструмент и не замена профессиональной помощи. Все совпадения и интерпретации — результат работы алгоритмов. 18+.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Install Section -->
+<section id="install" class="install-section">
+<div class="container">
+<div class="section-header fade-in">
+<h2 class="section-title">Установка за <span class="gradient-text">30 секунд</span></h2>
+<p class="section-subtitle">Приложение работает как PWA — устанавливается через браузер без магазинов приложений</p>
+</div>
+<div class="install-grid">
+<div class="install-card fade-in">
+<div class="install-platform">🤖</div>
+<h3>Android (современный, 10+)</h3>
+<p class="install-subtitle">В два клика</p>
+<ol class="install-steps">
+<li>Открой сайт в <strong>Chrome</strong></li>
+<li>Нажми всплывающую кнопку <strong>«Установить приложение»</strong></li>
+<li>Подтверди во всплывающем окне</li>
+</ol>
+<div class="install-result">✅ Иконка «Astroflow» появится на рабочем столе</div>
+</div>
+<div class="install-card fade-in delay-100">
+<div class="install-platform">🤖</div>
+<h3>Android (старый, 9 и ниже)</h3>
+<p class="install-subtitle">Вручную за 4 шага</p>
+<ol class="install-steps">
+<li>Открой сайт в <strong>Chrome</strong></li>
+<li>Нажми <strong>три точки ⋮</strong> в правом верхнем углу</li>
+<li>Выбери <strong>«Установить приложение»</strong> или <strong>«Добавить на главный экран»</strong></li>
+<li>Подтверди установку во всплывающем окне</li>
+</ol>
+<div class="install-result">✅ Иконка «Astroflow» появится на рабочем столе</div>
+</div>
+<div class="install-card fade-in delay-200">
+<div class="install-platform">🍎</div>
+<h3>iPhone / iPad (Safari)</h3>
+<p class="install-subtitle">В три шага</p>
+<ol class="install-steps">
+<li>Открой сайт в <strong>Safari</strong> (в Chrome на iOS установка не работает)</li>
+<li>Нажми кнопку <strong>«Поделиться» ⎋</strong> внизу экрана</li>
+<li>Пролистай меню и выбери <strong>«На экран "Домой"»</strong> → <strong>«Добавить»</strong></li>
+</ol>
+<div class="install-result">✅ Иконка «Astroflow» появится на главном экране</div>
+</div>
+<div class="install-card fade-in">
+<div class="install-platform">✈</div>
+<h3>Открыл из Telegram?</h3>
+<p class="install-subtitle">Telegram не поддерживает установку</p>
+<ol class="install-steps">
+<li>Нажми <strong>три точки</strong> в углу Telegram</li>
+<li>Выбери <strong>«Открыть в браузере»</strong></li>
+<li>Далее по инструкции выше для своей ОС</li>
+</ol>
+<div class="install-result">✅ После установки открывай через иконку — без адресной строки</div>
+</div>
+</div>
+<div class="install-note fade-in">
+<strong>Важно:</strong> После установки всегда открывай приложение через иконку на рабочем столе — тогда оно запустится в полноэкранном режиме, без адресной строки браузера.
+</div>
+</div>
+</section>
+
+<!-- Pricing Section -->
+<section id="pricing" class="pricing">
+<div class="container">
+<div class="section-header fade-in">
+<h2 class="section-title">Выбери свой <span class="gradient-text">путь</span></h2>
+<p class="section-subtitle">Начни бесплатно или поддержи проект удобным способом — оба платных варианта дают полный доступ Премиум</p>
+</div>
+<div class="pricing-grid">
+<div class="pricing-card fade-in">
+<div class="pricing-header">
+<h3>Бесплатно</h3>
+<div class="pricing-price">0 ₽<span>/навсегда</span></div>
+</div>
+<ul class="pricing-features">
+<li>✓ Карта дня Таро</li>
+<li>✓ Базовый лунный календарь</li>
+<li>✓ Число дня</li>
+<li>✓ Утренняя аффирмация</li>
+<li>✓ Offline-доступ</li>
+</ul>
+<a href="https://astroflow-gamma.vercel.app/" target="_blank" rel="noopener" class="btn btn-secondary btn-full">Начать бесплатно</a>
+</div>
+<div class="pricing-card featured fade-in delay-100">
+<div class="pricing-badge">Подписка</div>
+<div class="pricing-header">
+<h3>Boosty</h3>
+<div class="pricing-price">Поддержка<span>/месяц</span></div>
+</div>
+<ul class="pricing-features">
+<li>✓ Все функции Премиум</li>
+<li>✓ Гибкая отмена в любой момент</li>
+<li>✓ Ежемесячная поддержка автора</li>
+<li>✓ Эксклюзивный контент на канале</li>
+<li>✓ Приоритетная обратная связь</li>
+</ul>
+<a href="https://boosty.to/dinkana" target="_blank" rel="noopener" class="btn btn-primary btn-full">Стать подписчиком</a>
+</div>
+<div class="pricing-card fade-in delay-200">
+<div class="pricing-badge">Разово</div>
+<div class="pricing-header">
+<h3>CloudTips</h3>
+<div class="pricing-price">Донат<span>/любой размер</span></div>
+</div>
+<ul class="pricing-features">
+<li>✓ Все функции Премиум</li>
+<li>✓ Разовая поддержка проекта</li>
+<li>✓ Любой комфортный размер</li>
+<li>✓ Код активации на год</li>
+<li>✓ Без обязательств</li>
+</ul>
+<a href="https://pay.cloudtips.ru/p/d60d022f" target="_blank" rel="noopener" class="btn btn-secondary btn-full">Поддержать проект</a>
+</div>
+</div>
+<div class="pricing-alt fade-in">
+<p class="pricing-note">💛 Оба платных способа дают одинаковый результат — полный доступ Премиум. Boosty — если хочешь поддерживать автора регулярно. CloudTips — если удобнее разовая поддержка любым комфортным размером. Выбор за тобой.</p>
+<p class="pricing-disclaimer">Цифровой контент возврату не подлежит. 18+.</p>
+</div>
+</div>
+</section>
+
+<!-- Story Section -->
+<section id="story" class="story-section">
+<div class="container">
+<div class="story-container fade-in">
+<div class="story-icon">✨</div>
+<h2 class="section-title">Почему я это сделал</h2>
+<div class="story-text">
+<p>Я долго шёл к тому, чтобы научиться справляться со стрессом и тревогой. Перепробовал медитации, йогу, работу с психологом — и в какой-то момент понял: мне нужен простой инструмент, который будет <strong>каждый день</strong> возвращать меня к себе. Не на час, а на 2 минуты.</p>
+<p>Так появился <strong>Astroflow</strong>. Это моя первая самостоятельная разработка — без команды, без инвесторов, без маркетинговых воронкок. Просто инструмент, который я хотел бы иметь сам.</p>
+<p>На канале <a href="https://www.youtube.com/@dinnkana" target="_blank" rel="noopener" class="channel-link">@dinnkana</a> я делюсь глубокими практиками. Здесь — их ежедневное продолжение. Если приложение поможет тебе так же, как помогает мне, я буду рад.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+<div class="container">
+<div class="cta-content fade-in">
+<h2 class="cta-title">Начни свой путь сегодня</h2>
+<p class="cta-subtitle">
+Присоединяйся к тысячам пользователей, которые уже открыли для себя силу древних символов. Поддержка через Boosty или CloudTips — и все функции Премиум твои.
+</p>
+<a href="https://astroflow-gamma.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary btn-large btn-glow">
+<span>Открыть Astroflow</span>
+<span class="btn-arrow">→</span>
+</a>
+<p class="cta-note">PWA-приложение · Работает offline · 1K+ пользователей</p>
+</div>
+</div>
+<div class="cta-gradient"></div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-brand">
+<div class="logo">
+<img src="logo.png" alt="Astroflow" class="logo-image">
+<span class="logo-text">Astroflow</span>
+</div>
+<p>Ежедневный цифровой ритуал для души</p>
+</div>
+<div class="footer-links">
+<a href="#features">Возможности</a>
+<a href="#tarot">Таро</a>
+<a href="#moon">Луна</a>
+<a href="#numerology">Нумерология</a>
+<a href="#safety">Безопасность</a>
+<a href="#install">Установка</a>
+<a href="#pricing">Подписка</a>
+<a href="/terms">Публичная оферта</a>
+</div>
+<div class="footer-social">
+<a href="https://www.youtube.com/@dinnkana" target="_blank" rel="noopener">YouTube: @dinnkana</a>
+<a href="https://boosty.to/dinkana" target="_blank" rel="noopener">Boosty</a>
+<a href="https://pay.cloudtips.ru/p/d60d022f" target="_blank" rel="noopener">CloudTips</a>
+<a href="https://forms.gle/FqZW1BxoAJjYUSNG7" target="_blank" rel="noopener">Обратная связь</a>
+</div>
+<div class="footer-legal">
+<p>© 2026 Astroflow. Все права защищены.</p>
+<p class="disclaimer">Для развлекательных целей. Не является научным, медицинским, психологическим или финансовым инструментом. 18+.</p>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
